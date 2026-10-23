@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TTF Official</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10101c;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 25px;
+      background: #1c1c30;
+      border-bottom: 2px solid #7c3aed;
+    }
+
+    h1 {
+      color: #a78bfa;
+      font-size: 42px;
+    }
+
+    main {
+      padding: 50px 20px;
+    }
+
+    button {
+      padding: 14px 25px;
+      border: none;
+      border-radius: 10px;
+      background: #7c3aed;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #9333ea;
+    }
+
+    #message {
+      margin-top: 25px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TTF Official</h1>
+    <p>Welcome to my website!</p>
+  </header>
+
+  <main>
+    <h2>See on minu veebileht! 🚀</h2>
+    <p>Minu enda veebileht, loodud HTML-i, CSS-i ja JavaScriptiga.</p>
+    <button onclick="showMessage()">Vajuta mind!</button>
+    <div id="message"></div>
+  </main>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").textContent =
+        "Sorry, but the web is under work right now.";
+    }
+  </script>
+</body>
+</html>
